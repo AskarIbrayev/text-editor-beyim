@@ -167,8 +167,8 @@ export default function ToolbarPlugin() {
     "paragraph",
     "quote",
     "code",
+    "h1",
     "h2",
-    "h3",
     "ul",
     "ol"
   ]);

@@ -8,6 +8,7 @@ import img1 from '../../../assets/images/biology1.jpeg'
 
 const ImageSection = () => {
     const { imageBase64 } = useContext(ImageBase64Context)
+    // the following line and if block was just made for demonstration to show some image when app is first loaded
     const [urls, setUrls] = useState([img1, img1])
     if (!imageBase64.length) {
         return <>
