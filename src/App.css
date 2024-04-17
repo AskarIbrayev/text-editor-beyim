@@ -71,9 +71,9 @@
 }
 
 
-input[type=file] {
+/* input[type=file] {
   visibility: hidden;
-}
+} */
 
 .upload-container {
   display: flex;
