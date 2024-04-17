@@ -1,0 +1,58 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.headerLeft {
+    display: flex;
+    width: calc(85%);
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(85%);
+}
+
+.content p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(149, 149, 149);
+}
+.content h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo {
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgb(203, 255, 203);
+    position: relative;
+}
+
+.logo_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+
+
+.headerRight {
+    display: flex;
+    font-size: 1rem;
+    color: rgb(149, 178, 201);
+
+}

@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.container-half {
+  background-color: red;
+  min-width: 400px;
+  min-height: 400px;
+  flex: 1 0;
+  padding: 1.5rem;
+}
+
+.container-half__title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: gray;
+}
+
+.redactor {
+  background-color: rgb(240, 227, 227);
+}
+
+.demo {
+  background-color: rgb(232, 242, 243);
+}
+
+.btn {
+  padding: 8px 14px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 1px rgba(15, 96, 116, 0.869);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: rgb(83, 183, 211);
+}
+
+.btn-primary:hover {
+  background-color: rgb(69, 161, 187);
+}
+
+.btn-secondary {
+  background-color: rgb(172, 172, 172);
+}
+
+.upload-btn {
+  background: #e3ecf6;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+}
+
+
+input[type=file] {
+  visibility: hidden;
+}
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+}
+
+.input-url-container {
+  display: flex;
+  gap: 8px;
+  height: 28px;
+  margin: 5rem 0 6rem;
+}
+
+.input-url {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 13rem;
+  padding-left: 6px;
+  outline: none;
+}

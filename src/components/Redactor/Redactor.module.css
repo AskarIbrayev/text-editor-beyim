@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 14px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.btnSubmit {
+    background: #e3ecf6;
+    border-radius: 8px;
+    padding: 8px 14px;
+    margin-bottom: 1rem;
+    min-width: 5rem;
+}
+
+.btnSubmit:hover {
+    background-color: #bac9d9;
+}
